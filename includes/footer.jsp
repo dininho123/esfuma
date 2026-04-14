@@ -42,7 +42,36 @@
     <i class="fab fa-whatsapp"></i>
 </a>
 
+<button id="backToTop" aria-label="Voltar ao topo">
+    <i class="fas fa-chevron-up"></i>
+</button>
+
 <script>
+// ======================
+// PRELOADER
+// ======================
+window.addEventListener('load', () => {
+    setTimeout(() => {
+        const preloader = document.getElementById('preloader');
+        if (preloader) preloader.classList.add('hidden');
+    }, 900);
+});
+
+// ======================
+// BACK TO TOP
+// ======================
+const backToTopBtn = document.getElementById('backToTop');
+window.addEventListener('scroll', () => {
+    if (window.scrollY > 300) {
+        backToTopBtn.classList.add('visible');
+    } else {
+        backToTopBtn.classList.remove('visible');
+    }
+});
+backToTopBtn.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+
 // ======================
 // HAMBURGER MENU
 // ======================

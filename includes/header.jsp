@@ -10,14 +10,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="ESFUMA — EScola de FUtebol da MAdeira. Formação desportiva para jovens dos 3 aos 19 anos em Funchal, Madeira.">
+    <meta property="og:title" content="ESFUMA — EScola de FUtebol da MAdeira">
+    <meta property="og:description" content="Formando homens, atletas e campeões desde 1998. Inscrições abertas dos 3 aos 19 anos.">
+    <meta property="og:image" content="img/hero.jpg">
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#27ae60">
     <title>ESFUMA — EScola de FUtebol da MAdeira</title>
-    <link rel="stylesheet" href="css/style.css?v=2.0">
+    <link rel="stylesheet" href="css/style.css?v=2.1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+
+<div id="preloader">
+    <img src="img/logo_escola_1.png" alt="ESFUMA">
+</div>
 
 <header class="header">
 

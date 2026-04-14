@@ -9,7 +9,7 @@
 <section class="hero" id="inicio">
     <div class="hero-content">
         <h2>Formando Homens, Atletas e Campeões</h2>
-        <p>Dos 3 aos 19 anos!!</p>
+        <p>Formação desportiva dos 3 aos 19 anos.</p>
         <a href="#contactos" class="btn">Inscreve-te</a>
     </div>
 </section>
