@@ -1080,6 +1080,46 @@ footer::before {
 .reveal.active .card:nth-child(10) { transition-delay: 1s; }
 .reveal.active .card:nth-child(11) { transition-delay: 1.1s; }
 
+/* ======================
+   404 PAGE
+   ====================== */
+.hero-404 {
+    min-height: calc(100vh - 70px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #f0fff4, #e8f5e9);
+    text-align: center;
+}
+
+.hero-404-content {
+    padding: 40px 20px;
+}
+
+.error-code {
+    font-family: 'Oswald', sans-serif;
+    font-size: 140px;
+    font-weight: 700;
+    line-height: 1;
+    background: linear-gradient(135deg, #27ae60, #f1c40f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 10px;
+}
+
+.hero-404-content h2 {
+    font-size: 28px;
+    color: #2f3640;
+    margin-bottom: 12px;
+}
+
+.hero-404-content p {
+    color: #777;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
 .hero-infantarios {
     position: relative; /* 🔥 FALTAVA ISTO */
     height: 70vh;
