@@ -8,6 +8,7 @@
 
 <section class="hero" id="inicio">
     <div class="hero-content">
+        <span class="hero-badge">Inscrições Abertas</span>
         <h2>Formando Homens, Atletas e Campeões</h2>
         <p>Formação desportiva dos 3 aos 19 anos.</p>
         <a href="#contactos" class="btn">Inscreve-te</a>

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://esfuma.onrender.com/sitemap.xml
