@@ -40,7 +40,7 @@
         </div>
 
         <div class="sobre-imagem">
-            <img src="img/treino.png" alt="Treino de futebol">
+            <img src="img/treino.png" alt="Treino de futebol" loading="lazy">
         </div>
 
     </div>
@@ -241,6 +241,16 @@
         <a href="https://wa.me/351912562328" class="btn whatsapp">
             <i class="fab fa-whatsapp"></i> Falar no WhatsApp
         </a>
+
+        <div class="mapa-wrapper">
+            <iframe
+                src="https://maps.google.com/maps?q=Caminho+do+Pilar,+Funchal,+Madeira&output=embed"
+                loading="lazy"
+                allowfullscreen
+                title="Localização ESFUMA">
+            </iframe>
+        </div>
+
     </div>
 </section>
 
